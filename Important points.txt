@@ -1,0 +1,5 @@
+- image tag <img> is a self closing tag, hence it doesn't require any closing tag separately.
+- input tag <button> is also a self closing tag.
+- the input tag takes a lot different types of attributes, "type" being the most important as it can take a number of inputs
+- unordered lists <ul> is a way to list different items in an unordered fashion, like as bullet points
+- ordered lists <ol> is a tag to list the items in an organized and ordered fashion, like as numbered
