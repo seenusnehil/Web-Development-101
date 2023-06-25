@@ -1,5 +1,17 @@
+------ HTML -------
 - image tag <img> is a self closing tag, hence it doesn't require any closing tag separately.
 - input tag <button> is also a self closing tag.
 - the input tag takes a lot different types of attributes, "type" being the most important as it can take a number of inputs
 - unordered lists <ul> is a way to list different items in an unordered fashion, like as bullet points
 - ordered lists <ol> is a tag to list the items in an organized and ordered fashion, like as numbered
+
+------- CSS -------
+- css works as to style any particular element of your html code
+- link tag <link rel="" href=""> which is used to link your css file to the html file, is also a self closing tag. It stays inside the head tag in the html file
+- if your element in css is defined to be displayed as block, then it simply blocks the rest of the space in that line, and hence the next element has to be displayed on the next line under this element
+- if your element in css is defined to be displayed as inline, then the next element will automatically will be aligned in the same line as the previous ones
+- how to center a CSS element:
+     - select display as block
+     - set a width for the element
+     - set margin left/right as auto
+- margin helps to aquire some extra space outside the element, whereas padding helps to get that space within an element
