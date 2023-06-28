@@ -13,5 +13,8 @@
 - how to center a CSS element:
      - select display as block
      - set a width for the element
-     - set margin left/right as auto
+     - set margin left and right as auto
 - margin helps to aquire some extra space outside the element, whereas padding helps to get that space within an element
+
+- flexbox is a styling technique where we can stack multiple elements in a single horizontal line, to apply it, use:
+               - display: flex;
