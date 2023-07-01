@@ -18,3 +18,4 @@
 
 - flexbox is a styling technique where we can stack multiple elements in a single horizontal line, to apply it, use:
                - display: flex;
+- always add alt attribute to your image tag, just to identify the image, if any error occurs
