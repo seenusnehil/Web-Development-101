@@ -19,3 +19,8 @@
 - flexbox is a styling technique where we can stack multiple elements in a single horizontal line, to apply it, use:
                - display: flex;
 - always add alt attribute to your image tag, just to identify the image, if any error occurs
+
+- Margin and Padding shorthands
+      - If the margin in all the sides are same -> margin: 10px;
+      - Setting up diffent side margins all at once -> margin: 10px 20px 30px 40px; (order - top, right, botton, left)
+      - When you have same top/bottom and left/right margins -> margin: 40px auto; (order - top/bottom, left/right)

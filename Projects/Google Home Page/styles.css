@@ -19,6 +19,7 @@
     width: 520px;
     margin-left: auto;
     margin-right: auto;
+    font-size: 14px;
 
     margin-top: 10px;
 
@@ -27,7 +28,7 @@
     padding-right: 10px;
     padding-bottom: 15px;
 
-    border: 1px solid rgb(109, 106, 106);
+    border:  0 px,  solid rgb(109, 106, 106);
     border-radius: 20px;
 }
 
