@@ -1,0 +1,3 @@
+Content Delivery Network: It is a type of network that helps your device to fetch the requried data from the nearest server to your device. 
+It improves the transimission time and helps in reduced upload delay
+
