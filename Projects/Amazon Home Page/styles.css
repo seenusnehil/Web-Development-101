@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+}
+
+.navbar {
+    justify-content: space-evenly;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+
+    display: flex;
+    align-items: center;
+}
+
+/**Box-1**/
+.nav-logo {
+    height: 50px;
+    width: 110px;
+
+    padding-right: 9px;
+
+}
+
+.logo {
+    background-image: url("images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 110%;
+}
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/**Box-2**/
+.add-first {
+    margin-left: 15px;
+    font-size: 0.75rem;
+    color: #cccccc;
+}
+
+.add-second {
+    font-size: 0.90rem;
+    margin-left: 3px;
+    font-weight: 700;
+}
+
+.add-icon {
+    display: flex;
+    align-items: center;
+}
+
+/**Box-3**/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 770px;
+
+    border-radius: 5px;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 60px;
+     
+    text-align: center;
+    font-size: 0.85rem;
+    color: #0f1111;
+    
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+}
+
+.search-icon {
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    background-color: rgb(236, 184, 92);
+    border: none;
+    color: #0f1111;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+/**Box-4**/
+
+.nav-location {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.loc-select {
+    width: 2px;
+    background-color: transparent;
+}
+
+.loc-icon {
+    font-size: 0.85rem;
+    align-items: center;
+}
+
+.loc-text {
+    font-size: 1rem;
+    padding-left: 1.5px;
+    padding-right: 1.5px;
+    font-size: 14px;
+}
+
+
+/**Box-5**/
+
+span {
+    font-size: 0.75rem;
+}
+
+.nav-second {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
+
+
+/**Box-6**/
+.nav-cart i {
+    font-size: 30px;
+}
+
+.nav-cart {
+    font-size: 0.90rem;
+    font-weight: 700;
+}
