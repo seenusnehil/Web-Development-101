@@ -119,6 +119,8 @@
 
     border: 0.1px solid white;
     border-radius: 3px;
+
+    vertical-align: middle;
 }
 
 .gs-button button {
@@ -154,7 +156,7 @@
 .section {
     height: 575px;
     background-color: black;
-    margin-top: 8px;
+    border-top: 8px solid rgb(48, 48, 48);
 
     display: flex;
     justify-content: center;
@@ -199,6 +201,150 @@
 
 
 /**Designing the FAQ part**/
+
+.bottom {
+    height: 783px;
+    background-color: black;
+    margin-top: 8px;
+    padding: 72px 0px;
+}
+
+.faq {
+    height: 783px;
+    margin: 0px 172px;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.faq-content {
+    height: 783px;
+    width: 100%;
+}
+
+.faq-content h2{
+    font-size: 3rem;
+    color: #ffffff;
+
+}
+
+.button-box {
+    display: block;
+    text-align: left;
+    margin: 16px 0px 0px 0px;
+}
+
+.buttons {
+    font-size: 1.5rem;
+    padding: 24px;
+    width: 100%;
+    text-align: left;
+    margin-top: 8px;
+    height: 84px;
+
+    background-color: rgb(54, 54, 54);
+    color: #ffffff;
+
+    border: 0.1px solid rgb(54, 54, 54);
+}
+
+.faq-content p {
+    font-size: 1.3rem;
+    color: #ffffff;
+    margin-top: 45px;
+
+    margin-bottom: 10px;
+}
+
+.register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 56px;
+}
+
+
+/**Designing footer**/
+
+.foot-panel {
+    height: 100%;
+    background-color: black;
+    border-top: 8px solid rgb(48, 48, 48);
+
+}
+
+.foot-content {
+    height: 463px;
+    margin: 0px 172px;
+    padding: 60px 0px;
+}
+
+.contact {
+    color: #ffffff;
+    font-size: 1rem;
+    padding: 12px 0px;
+}
+
+.contact a {
+    text-decoration: underline;
+}
+
+.multiple-links {
+    display: flex;
+    justify-content: space-evenly;
+    height: 201px;
+    padding: 12px 0px;
+
+    color: #ffffff;
+
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    width: 33%;
+}
+
+ul a {
+    display: block;
+    font-size: 0.88rem;
+    color: #dddddd;
+
+    text-decoration: underline;
+    padding: 12px 0px;
+}
+
+.foot-lang {
+    display: flex;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #ffffff;
+
+    padding: 8px 12px;
+    margin: 14px 0px 8px 0px;
+
+    width: 100px;
+    border: 0.1px solid #ffffffb3;
+    border-radius: 3px;
+    background-color: rgb(24, 24, 24);
+}
+
+.foot-lang p {
+    padding: 0px 10px;
+}
+
+.ending {
+    padding: 16px 0px;
+    display: flex;
+    font-size: 1rem;
+    color: #ffffffb3;
+    background-color: transparent;
+}
+
+
+
 
 
 
