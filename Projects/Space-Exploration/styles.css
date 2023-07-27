@@ -1,0 +1,29 @@
+@font-face {
+    font-family: east-tiger;
+    src: url("East\ Tiger.otf");
+}
+
+body {
+    font-family: east-tiger;
+    background-image: url("images/giphy.gif");
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+    padding-top: 200px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+}
+
+button {
+    font-size: 3rem;
+    padding: 5px 8px;
+    font-weight: bold;
+    font-family: east-tiger;
+
+    border: 1px solid white;
+    border-radius: 3px;
+}
